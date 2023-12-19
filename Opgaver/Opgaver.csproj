@@ -7,4 +7,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Boghandel\**" />
+    <Compile Remove="Bog\**" />
+    <Compile Remove="Den lille tabel\**" />
+    <Compile Remove="Garage\**" />
+    <EmbeddedResource Remove="Boghandel\**" />
+    <EmbeddedResource Remove="Bog\**" />
+    <EmbeddedResource Remove="Den lille tabel\**" />
+    <EmbeddedResource Remove="Garage\**" />
+    <None Remove="Boghandel\**" />
+    <None Remove="Bog\**" />
+    <None Remove="Den lille tabel\**" />
+    <None Remove="Garage\**" />
+  </ItemGroup>
+
 </Project>

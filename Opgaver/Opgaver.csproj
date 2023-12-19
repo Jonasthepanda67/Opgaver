@@ -10,16 +10,31 @@
   <ItemGroup>
     <Compile Remove="Boghandel\**" />
     <Compile Remove="Bog\**" />
+    <Compile Remove="Datechecker\**" />
     <Compile Remove="Den lille tabel\**" />
+    <Compile Remove="Enumeration\**" />
     <Compile Remove="Garage\**" />
+    <Compile Remove="IBil\**" />
+    <Compile Remove="NedarvPerson\**" />
+    <Compile Remove="Struct\**" />
     <EmbeddedResource Remove="Boghandel\**" />
     <EmbeddedResource Remove="Bog\**" />
+    <EmbeddedResource Remove="Datechecker\**" />
     <EmbeddedResource Remove="Den lille tabel\**" />
+    <EmbeddedResource Remove="Enumeration\**" />
     <EmbeddedResource Remove="Garage\**" />
+    <EmbeddedResource Remove="IBil\**" />
+    <EmbeddedResource Remove="NedarvPerson\**" />
+    <EmbeddedResource Remove="Struct\**" />
     <None Remove="Boghandel\**" />
     <None Remove="Bog\**" />
+    <None Remove="Datechecker\**" />
     <None Remove="Den lille tabel\**" />
+    <None Remove="Enumeration\**" />
     <None Remove="Garage\**" />
+    <None Remove="IBil\**" />
+    <None Remove="NedarvPerson\**" />
+    <None Remove="Struct\**" />
   </ItemGroup>
 
 </Project>

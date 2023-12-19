@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AnonymousMethod\**" />
+    <Compile Remove="Baggrundsfarve\**" />
     <Compile Remove="Boghandel\**" />
     <Compile Remove="Bog\**" />
     <Compile Remove="Datechecker\**" />
@@ -16,7 +18,10 @@
     <Compile Remove="Garage\**" />
     <Compile Remove="IBil\**" />
     <Compile Remove="NedarvPerson\**" />
+    <Compile Remove="Regnemaskine\**" />
     <Compile Remove="Struct\**" />
+    <EmbeddedResource Remove="AnonymousMethod\**" />
+    <EmbeddedResource Remove="Baggrundsfarve\**" />
     <EmbeddedResource Remove="Boghandel\**" />
     <EmbeddedResource Remove="Bog\**" />
     <EmbeddedResource Remove="Datechecker\**" />
@@ -25,7 +30,10 @@
     <EmbeddedResource Remove="Garage\**" />
     <EmbeddedResource Remove="IBil\**" />
     <EmbeddedResource Remove="NedarvPerson\**" />
+    <EmbeddedResource Remove="Regnemaskine\**" />
     <EmbeddedResource Remove="Struct\**" />
+    <None Remove="AnonymousMethod\**" />
+    <None Remove="Baggrundsfarve\**" />
     <None Remove="Boghandel\**" />
     <None Remove="Bog\**" />
     <None Remove="Datechecker\**" />
@@ -34,6 +42,7 @@
     <None Remove="Garage\**" />
     <None Remove="IBil\**" />
     <None Remove="NedarvPerson\**" />
+    <None Remove="Regnemaskine\**" />
     <None Remove="Struct\**" />
   </ItemGroup>
 
